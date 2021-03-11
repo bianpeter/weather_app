@@ -40,7 +40,7 @@ const search = event => {
             onChange={e =>setNewCity(e.target.value)}
             value={newCity}
             onKeyPress={search}
-            apiKey="AIzaSyDF-hI9NJYO3fDYt6fDCyRwtHi0wPyckWc"
+            apiKey=""
           />
         </div>
         {(typeof weather.main != "undefined") ? ( 
