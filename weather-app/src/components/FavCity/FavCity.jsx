@@ -8,11 +8,11 @@ function FavCity({change}) {
       <div className="cities-container">
         <label htmlFor="cities">Choose a city: </label>
         <select name="cities" id="cities" onChange={change}>
-          <option value="London">Budapest</option>
-          <option value="Budapest">Sonkád</option>
-          <option value="Köln">Bugyi</option>
-          <option value="Sydney">Ondód</option>
-          <option value="Detroit">Makkoshotyka</option>
+          <option value="Budapest">Budapest</option>
+          <option value="Batman">Batman</option>
+          <option value="Bugyi">Bugyi</option>
+          <option value="Sonkád">Sonkád</option>
+          <option value="Makkoshotyka">Makkoshotyka</option>
         </select>
       </div>
     </div>
